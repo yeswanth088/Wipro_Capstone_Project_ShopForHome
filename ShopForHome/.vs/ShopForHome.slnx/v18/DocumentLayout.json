@@ -1,0 +1,581 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|c:\\users\\yeswa\\source\\repos\\shopforhome\\shopforhome\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|solutionrelative:shopforhome\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|c:\\users\\yeswa\\source\\repos\\shopforhome\\shopforhome\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|solutionrelative:shopforhome\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|c:\\users\\yeswa\\source\\repos\\shopforhome\\shopforhome\\controllers\\bulkuploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|solutionrelative:shopforhome\\controllers\\bulkuploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|c:\\users\\yeswa\\source\\repos\\shopforhome\\shopforhome\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|solutionrelative:shopforhome\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|c:\\users\\yeswa\\source\\repos\\shopforhome\\shopforhome\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|solutionrelative:shopforhome\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|c:\\users\\yeswa\\source\\repos\\shopforhome\\shopforhome\\controllers\\logs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|solutionrelative:shopforhome\\controllers\\logs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|c:\\users\\yeswa\\source\\repos\\shopforhome\\shopforhome\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|solutionrelative:shopforhome\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|c:\\users\\yeswa\\source\\repos\\shopforhome\\shopforhome\\models\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|solutionrelative:shopforhome\\models\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|c:\\users\\yeswa\\source\\repos\\shopforhome\\shopforhome\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|solutionrelative:shopforhome\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|c:\\users\\yeswa\\source\\repos\\shopforhome\\shopforhome\\permission\\adminonly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|solutionrelative:shopforhome\\permission\\adminonly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|c:\\users\\yeswa\\source\\repos\\shopforhome\\shopforhome\\controllers\\salesreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|solutionrelative:shopforhome\\controllers\\salesreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|c:\\users\\yeswa\\source\\repos\\shopforhome\\shopforhome\\controllers\\couponscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|solutionrelative:shopforhome\\controllers\\couponscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|c:\\users\\yeswa\\source\\repos\\shopforhome\\shopforhome\\shopforhome.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|solutionrelative:shopforhome\\shopforhome.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|c:\\users\\yeswa\\source\\repos\\shopforhome\\shopforhome\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|solutionrelative:shopforhome\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|c:\\users\\yeswa\\source\\repos\\shopforhome\\shopforhome\\models\\wishlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|solutionrelative:shopforhome\\models\\wishlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|c:\\users\\yeswa\\source\\repos\\shopforhome\\shopforhome\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|solutionrelative:shopforhome\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|c:\\users\\yeswa\\source\\repos\\shopforhome\\shopforhome\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|solutionrelative:shopforhome\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|c:\\users\\yeswa\\source\\repos\\shopforhome\\shopforhome\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|solutionrelative:shopforhome\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|c:\\users\\yeswa\\source\\repos\\shopforhome\\shopforhome\\models\\coupon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|solutionrelative:shopforhome\\models\\coupon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|c:\\users\\yeswa\\source\\repos\\shopforhome\\shopforhome\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|solutionrelative:shopforhome\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|c:\\users\\yeswa\\source\\repos\\shopforhome\\shopforhome\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|solutionrelative:shopforhome\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|c:\\users\\yeswa\\source\\repos\\shopforhome\\shopforhome\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|solutionrelative:shopforhome\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|c:\\users\\yeswa\\source\\repos\\shopforhome\\shopforhome\\controllers\\wishlistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|solutionrelative:shopforhome\\controllers\\wishlistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|c:\\users\\yeswa\\source\\repos\\shopforhome\\shopforhome\\models\\shopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|solutionrelative:shopforhome\\models\\shopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Migrations\\20260313120823_InitialShop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ShopForHome\\Migrations\\20260313120823_InitialShop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Migrations\\20260313120657_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ShopForHome\\Migrations\\20260313120657_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|c:\\users\\yeswa\\source\\repos\\shopforhome\\shopforhome\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|solutionrelative:shopforhome\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|c:\\users\\yeswa\\source\\repos\\shopforhome\\shopforhome\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|solutionrelative:shopforhome\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|c:\\users\\yeswa\\source\\repos\\shopforhome\\shopforhome\\views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|solutionrelative:shopforhome\\views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|c:\\users\\yeswa\\source\\repos\\shopforhome\\shopforhome\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|solutionrelative:shopforhome\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|c:\\users\\yeswa\\source\\repos\\shopforhome\\shopforhome\\controllers\\cartscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|solutionrelative:shopforhome\\controllers\\cartscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|c:\\users\\yeswa\\source\\repos\\shopforhome\\shopforhome\\controllers\\orderitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|solutionrelative:shopforhome\\controllers\\orderitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|c:\\users\\yeswa\\source\\repos\\shopforhome\\shopforhome\\migrations\\20260313125817_shopdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|solutionrelative:shopforhome\\migrations\\20260313125817_shopdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|c:\\users\\yeswa\\source\\repos\\shopforhome\\shopforhome\\migrations\\20260313121047_shopmig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|solutionrelative:shopforhome\\migrations\\20260313121047_shopmig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|c:\\users\\yeswa\\source\\repos\\shopforhome\\shopforhome\\migrations\\20260314070820_shophome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEF5BE7E-F5C8-D277-5D51-40537506F05F}|ShopForHome\\ShopForHome.csproj|solutionrelative:shopforhome\\migrations\\20260314070820_shophome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20260314070820_ShopHome.cs",
+              "DocumentMoniker": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Migrations\\20260314070820_ShopHome.cs",
+              "RelativeDocumentMoniker": "ShopForHome\\Migrations\\20260314070820_ShopHome.cs",
+              "ToolTip": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Migrations\\20260314070820_ShopHome.cs",
+              "RelativeToolTip": "ShopForHome\\Migrations\\20260314070820_ShopHome.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T07:08:20.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "ShopForHome\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "ShopForHome\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T07:23:36.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CouponsController.cs",
+              "DocumentMoniker": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Controllers\\CouponsController.cs",
+              "RelativeDocumentMoniker": "ShopForHome\\Controllers\\CouponsController.cs",
+              "ToolTip": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Controllers\\CouponsController.cs",
+              "RelativeToolTip": "ShopForHome\\Controllers\\CouponsController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T13:56:09.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SalesReport.cs",
+              "DocumentMoniker": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Controllers\\SalesReport.cs",
+              "RelativeDocumentMoniker": "ShopForHome\\Controllers\\SalesReport.cs",
+              "ToolTip": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Controllers\\SalesReport.cs",
+              "RelativeToolTip": "ShopForHome\\Controllers\\SalesReport.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T14:08:25.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "ShopForHome\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Models\\Product.cs",
+              "RelativeToolTip": "ShopForHome\\Models\\Product.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAuwA4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T06:26:47.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Program.cs",
+              "RelativeDocumentMoniker": "ShopForHome\\Program.cs",
+              "ToolTip": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Program.cs",
+              "RelativeToolTip": "ShopForHome\\Program.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAqwD4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T06:44:46.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "ShopForHome\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "ShopForHome\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAwwEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T08:35:58.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BulkUploadController.cs",
+              "DocumentMoniker": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Controllers\\BulkUploadController.cs",
+              "RelativeDocumentMoniker": "ShopForHome\\Controllers\\BulkUploadController.cs",
+              "ToolTip": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Controllers\\BulkUploadController.cs",
+              "RelativeToolTip": "ShopForHome\\Controllers\\BulkUploadController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T08:09:59.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "ShopForHome\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "ShopForHome\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T13:56:59.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Logs.cs",
+              "DocumentMoniker": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Controllers\\Logs.cs",
+              "RelativeDocumentMoniker": "ShopForHome\\Controllers\\Logs.cs",
+              "ToolTip": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Controllers\\Logs.cs",
+              "RelativeToolTip": "ShopForHome\\Controllers\\Logs.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T06:10:59.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdminOnly.cs",
+              "DocumentMoniker": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Permission\\AdminOnly.cs",
+              "RelativeDocumentMoniker": "ShopForHome\\Permission\\AdminOnly.cs",
+              "ToolTip": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Permission\\AdminOnly.cs",
+              "RelativeToolTip": "ShopForHome\\Permission\\AdminOnly.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T06:35:50.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Stock.cs",
+              "DocumentMoniker": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Models\\Stock.cs",
+              "RelativeDocumentMoniker": "ShopForHome\\Models\\Stock.cs",
+              "ToolTip": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Models\\Stock.cs",
+              "RelativeToolTip": "ShopForHome\\Models\\Stock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T06:53:14.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Models\\User.cs",
+              "RelativeDocumentMoniker": "ShopForHome\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Models\\User.cs",
+              "RelativeToolTip": "ShopForHome\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T06:26:15.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\appsettings.json",
+              "RelativeDocumentMoniker": "ShopForHome\\appsettings.json",
+              "ToolTip": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\appsettings.json",
+              "RelativeToolTip": "ShopForHome\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-13T06:43:09.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Wishlist.cs",
+              "DocumentMoniker": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Models\\Wishlist.cs",
+              "RelativeDocumentMoniker": "ShopForHome\\Models\\Wishlist.cs",
+              "ToolTip": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Models\\Wishlist.cs",
+              "RelativeToolTip": "ShopForHome\\Models\\Wishlist.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvxMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T06:27:27.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ShopForHome.csproj",
+              "DocumentMoniker": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\ShopForHome.csproj",
+              "RelativeDocumentMoniker": "ShopForHome\\ShopForHome.csproj",
+              "ToolTip": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\ShopForHome.csproj",
+              "RelativeToolTip": "ShopForHome\\ShopForHome.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-13T06:26:26.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "ShopForHome\\Models\\Role.cs",
+              "ToolTip": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Models\\Role.cs",
+              "RelativeToolTip": "ShopForHome\\Models\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T12:01:40.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "ShopForHome\\Models\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Models\\OrderItem.cs",
+              "RelativeToolTip": "ShopForHome\\Models\\OrderItem.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAxwBcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T06:40:58.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "ShopForHome\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Models\\Order.cs",
+              "RelativeToolTip": "ShopForHome\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T06:27:36.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Coupon.cs",
+              "DocumentMoniker": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Models\\Coupon.cs",
+              "RelativeDocumentMoniker": "ShopForHome\\Models\\Coupon.cs",
+              "ToolTip": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Models\\Coupon.cs",
+              "RelativeToolTip": "ShopForHome\\Models\\Coupon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T06:39:27.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CartsController.cs",
+              "DocumentMoniker": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Controllers\\CartsController.cs",
+              "RelativeDocumentMoniker": "ShopForHome\\Controllers\\CartsController.cs",
+              "ToolTip": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Controllers\\CartsController.cs",
+              "RelativeToolTip": "ShopForHome\\Controllers\\CartsController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T13:50:52.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "ShopForHome\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Models\\Category.cs",
+              "RelativeToolTip": "ShopForHome\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T06:27:08.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "WishlistsController.cs",
+              "DocumentMoniker": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Controllers\\WishlistsController.cs",
+              "RelativeDocumentMoniker": "ShopForHome\\Controllers\\WishlistsController.cs",
+              "ToolTip": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Controllers\\WishlistsController.cs",
+              "RelativeToolTip": "ShopForHome\\Controllers\\WishlistsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T13:55:18.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "ShopForHome\\Models\\Cart.cs",
+              "ToolTip": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Models\\Cart.cs",
+              "RelativeToolTip": "ShopForHome\\Models\\Cart.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAYwBQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T06:27:15.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "OrderItemsController.cs",
+              "DocumentMoniker": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Controllers\\OrderItemsController.cs",
+              "RelativeDocumentMoniker": "ShopForHome\\Controllers\\OrderItemsController.cs",
+              "ToolTip": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Controllers\\OrderItemsController.cs",
+              "RelativeToolTip": "ShopForHome\\Controllers\\OrderItemsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T13:57:54.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SalesController.cs",
+              "DocumentMoniker": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Controllers\\SalesController.cs",
+              "RelativeDocumentMoniker": "ShopForHome\\Controllers\\SalesController.cs",
+              "ToolTip": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Controllers\\SalesController.cs",
+              "RelativeToolTip": "ShopForHome\\Controllers\\SalesController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAIwCEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T14:02:10.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20260313125817_ShopDb.cs",
+              "DocumentMoniker": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Migrations\\20260313125817_ShopDb.cs",
+              "RelativeDocumentMoniker": "ShopForHome\\Migrations\\20260313125817_ShopDb.cs",
+              "ToolTip": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Migrations\\20260313125817_ShopDb.cs",
+              "RelativeToolTip": "ShopForHome\\Migrations\\20260313125817_ShopDb.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T12:58:17.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ShopContext.cs",
+              "DocumentMoniker": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Models\\ShopContext.cs",
+              "RelativeDocumentMoniker": "ShopForHome\\Models\\ShopContext.cs",
+              "ToolTip": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Models\\ShopContext.cs",
+              "RelativeToolTip": "ShopForHome\\Models\\ShopContext.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA9wB0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T07:12:37.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "20260313121047_ShopMig.cs",
+              "DocumentMoniker": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Migrations\\20260313121047_ShopMig.cs",
+              "RelativeDocumentMoniker": "ShopForHome\\Migrations\\20260313121047_ShopMig.cs",
+              "ToolTip": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Migrations\\20260313121047_ShopMig.cs",
+              "RelativeToolTip": "ShopForHome\\Migrations\\20260313121047_ShopMig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T12:10:47.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20260313120823_InitialShop.cs",
+              "DocumentMoniker": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Migrations\\20260313120823_InitialShop.cs",
+              "RelativeDocumentMoniker": "ShopForHome\\Migrations\\20260313120823_InitialShop.cs",
+              "ToolTip": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Migrations\\20260313120823_InitialShop.cs",
+              "RelativeToolTip": "ShopForHome\\Migrations\\20260313120823_InitialShop.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T12:08:23.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20260313120657_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Migrations\\20260313120657_Initial.cs",
+              "RelativeDocumentMoniker": "ShopForHome\\Migrations\\20260313120657_Initial.cs",
+              "ToolTip": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Migrations\\20260313120657_Initial.cs",
+              "RelativeToolTip": "ShopForHome\\Migrations\\20260313120657_Initial.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T12:06:57.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "ShopForHome\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "ShopForHome\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAswBEAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T08:25:42.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Views\\Products\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ShopForHome\\Views\\Products\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Views\\Products\\Delete.cshtml",
+              "RelativeToolTip": "ShopForHome\\Views\\Products\\Delete.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAWwB0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-13T09:59:19.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "ShopForHome\\Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "ShopForHome\\Views\\Products\\Index.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAADgvxUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-13T09:59:44.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Views\\Products\\Details.cshtml",
+              "RelativeDocumentMoniker": "ShopForHome\\Views\\Products\\Details.cshtml",
+              "ToolTip": "C:\\Users\\yeswa\\source\\repos\\ShopForHome\\ShopForHome\\Views\\Products\\Details.cshtml",
+              "RelativeToolTip": "ShopForHome\\Views\\Products\\Details.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAADgvxwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-13T10:00:18.996Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
