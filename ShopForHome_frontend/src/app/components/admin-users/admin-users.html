@@ -1,0 +1,92 @@
+<div class="d-flex min-vh-100 bg-light">
+  
+  <!-- Sidebar -->
+  <div class="admin-sidebar text-white p-4 d-flex flex-column shadow-sm" style="width: 250px; background-color: var(--accent-color); flex-shrink: 0; min-height: calc(100vh - 80px);">
+    <h5 class="fw-bold mb-5" style="color: var(--primary-color);">Admin Panel</h5>
+    
+    <ul class="nav flex-column gap-2 mb-0">
+      <li class="nav-item">
+        <a routerLink="/admin/products" routerLinkActive="active" class="nav-link text-white-50 d-flex align-items-center gap-3 py-2 px-3 rounded-2 transition-all admin-link">
+          <i class="bi bi-box-seam fs-6"></i>
+          <span class="fw-medium">Products</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/admin/users" routerLinkActive="active" class="nav-link text-white-50 d-flex align-items-center gap-3 py-2 px-3 rounded-2 transition-all admin-link">
+          <i class="bi bi-people fs-6"></i>
+          <span class="fw-medium">Users</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/admin/upload" routerLinkActive="active" class="nav-link text-white-50 d-flex align-items-center gap-3 py-2 px-3 rounded-2 transition-all admin-link">
+          <i class="bi bi-upload fs-6"></i>
+          <span class="fw-medium">Bulk Upload</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/admin/sales-report" routerLinkActive="active" class="nav-link text-white-50 d-flex align-items-center gap-3 py-2 px-3 rounded-2 transition-all admin-link">
+          <i class="bi bi-bar-chart fs-6"></i>
+          <span class="fw-medium">Sales Report</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Main Content -->
+  <div class="flex-grow-1 p-5 overflow-auto">
+    <!-- Header -->
+    <div class="d-flex justify-content-between align-items-center mb-5">
+      <h3 class="fw-bold m-0 text-dark">Manage Users</h3>
+      <button class="btn btn-outline-secondary shadow-sm rounded-pill px-4 bg-white" (click)="loadUsers()" [disabled]="isLoading">
+        <i class="bi bi-arrow-clockwise me-1" [class.spinner-border]="isLoading" [class.spinner-border-sm]="isLoading"></i> Refresh
+      </button>
+    </div>
+
+    <!-- Users Table -->
+    <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+      <div class="card-body p-0">
+        <div class="table-responsive">
+          <table class="table table-hover align-middle mb-0 border-0">
+            <thead class="bg-white">
+              <tr>
+                <th class="ps-4 py-3 border-bottom text-dark fw-bold border-0">User</th>
+                <th class="py-3 border-bottom text-dark fw-bold border-0">Email</th>
+                <th class="py-3 border-bottom text-dark fw-bold border-0">Role</th>
+                <th class="text-end pe-4 py-3 border-bottom text-dark fw-bold border-0">Actions</th>
+              </tr>
+            </thead>
+            <tbody class="border-top-0">
+              <tr *ngIf="users.length === 0 && !isLoading">
+                <td colspan="4" class="text-center py-5 text-muted">No users found.</td>
+              </tr>
+              <tr *ngFor="let u of users">
+                <td class="ps-4 py-3">
+                  <div class="d-flex align-items-center gap-3">
+                    <div class="bg-light rounded-circle d-flex align-items-center justify-content-center fw-bold text-dark border" style="width: 45px; height: 45px;">
+                      {{ (u.username || u.firstName || 'U')[0] | uppercase }}
+                    </div>
+                    <div>
+                      <h6 class="mb-0 fw-medium text-dark">{{u.username || u.firstName}}</h6>
+                      <small class="text-muted">ID: #{{u.userId || u.id}}</small>
+                    </div>
+                  </div>
+                </td>
+                <td class="py-3 text-secondary">{{u.email}}</td>
+                <td class="py-3">
+                  <span class="badge rounded-pill px-3 py-2 fw-medium" [ngClass]="{'bg-warning text-dark': (u.role === 'Admin' || u.role === 1), 'bg-primary text-white': (u.role !== 'Admin' && u.role !== 1)}">
+                    {{ (u.role === 'Admin' || u.role === 1) ? 'Admin' : 'Customer' }}
+                  </span>
+                </td>
+                <td class="text-end pe-4 py-3">
+                  <button *ngIf="u.role !== 'Admin' && u.role !== 1" class="btn btn-sm btn-link text-secondary text-decoration-none p-1 hover-text-danger" title="Delete Account" (click)="deleteUser(u.userId || u.id)">
+                    <i class="bi bi-trash"></i>
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

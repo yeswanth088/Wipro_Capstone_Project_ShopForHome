@@ -1,0 +1,54 @@
+<div class="login-container d-flex justify-content-center align-items-center" style="min-height: 90vh; background-color: #fafafa; padding: 20px;">
+  <div class="card border-0" style="border-radius: 20px; width: 100%; max-width: 440px; padding: 56px 48px; background: #ffffff; box-shadow: 0 10px 40px rgba(0,0,0,0.04);">
+    
+    <div class="text-center mb-5">
+      <h2 class="fw-bold text-dark mb-2" style="font-size: 1.85rem; letter-spacing: -0.02em;">Welcome Back</h2>
+      <p class="text-secondary mb-0" style="font-size: 0.95rem;">Sign in to your account</p>
+    </div>
+
+    <div *ngIf="errorMessage" class="alert alert-danger py-3 px-4 small rounded-3 mb-4 d-flex align-items-center border-0 shadow-sm" style="background-color: #fef2f2; color: #991b1b;">
+      <i class="bi bi-exclamation-circle-fill me-2 fs-5"></i> {{ errorMessage }}
+    </div>
+
+    <div class="mb-4 text-start">
+      <label for="emailInput" class="form-label small fw-bold text-dark mb-2" style="font-size: 0.85rem;">Email</label>
+      <input type="email" class="form-control" id="emailInput" placeholder="" [(ngModel)]="email" 
+             style="border-radius: 12px; border: 1px solid #f1f1f1; padding: 14px 20px; font-size: 0.95rem; background: #f9f9f9; box-shadow: none;">
+    </div>
+
+    <div class="mb-5 text-start">
+      <label for="passwordInput" class="form-label small fw-bold text-dark mb-2" style="font-size: 0.85rem;">Password</label>
+      <input type="password" class="form-control" id="passwordInput" placeholder="" [(ngModel)]="password" 
+             style="border-radius: 12px; border: 1px solid #f1f1f1; padding: 14px 20px; font-size: 0.95rem; background: #f9f9f9; box-shadow: none;">
+    </div>
+
+    <button class="btn btn-primary w-100 py-3 fw-bold mb-4 d-flex justify-content-center align-items-center text-white" 
+            style="border-radius: 12px; font-size: 1rem; border: none;"
+            (click)="onLogin()" 
+            [disabled]="isLoading">
+      <span *ngIf="isLoading" class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>
+      {{ isLoading ? 'Signing In...' : 'Sign In' }}
+    </button>
+    
+    <div class="text-center mt-2">
+      <p class="text-secondary" style="font-size: 0.9rem;">
+        Don't have an account? <a routerLink="/register" class="text-decoration-none fw-medium" style="color: var(--primary-color);">Sign Up</a>
+      </p>
+    </div>
+    
+  </div>
+</div>
+
+<!-- Toast Notification -->
+<div class="position-fixed bottom-0 end-0 p-4" style="z-index: 1100">
+  <div class="toast align-items-center bg-dark border-0 shadow-lg text-white" [class.show]="showToast" role="alert" aria-live="assertive" aria-atomic="true" style="border-radius: 12px; min-width: 300px;">
+    <div class="d-flex p-3">
+      <div class="toast-body d-flex align-items-center gap-3 p-0 w-100 fw-medium">
+        <div class="bg-success text-white rounded-circle d-flex align-items-center justify-content-center shadow-sm" style="width: 28px; height: 28px;">
+          <i class="bi bi-check-lg" style="font-size: 18px;"></i>
+        </div>
+        Welcome back! You've logged in successfully.
+      </div>
+    </div>
+  </div>
+</div>

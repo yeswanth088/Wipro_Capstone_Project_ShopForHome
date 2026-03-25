@@ -1,0 +1,115 @@
+<div class="d-flex min-vh-100 bg-light">
+  
+  <!-- Sidebar -->
+  <div class="admin-sidebar text-white p-4 d-flex flex-column shadow-sm" style="width: 250px; background-color: var(--accent-color); flex-shrink: 0; min-height: calc(100vh - 80px);">
+    <h5 class="fw-bold mb-5" style="color: var(--primary-color);">Admin Panel</h5>
+    
+    <ul class="nav flex-column gap-2 mb-0">
+      <li class="nav-item">
+        <a routerLink="/admin/products" routerLinkActive="active" class="nav-link text-white-50 d-flex align-items-center gap-3 py-2 px-3 rounded-2 transition-all admin-link">
+          <i class="bi bi-box-seam fs-6"></i>
+          <span class="fw-medium">Products</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/admin/users" routerLinkActive="active" class="nav-link text-white-50 d-flex align-items-center gap-3 py-2 px-3 rounded-2 transition-all admin-link">
+          <i class="bi bi-people fs-6"></i>
+          <span class="fw-medium">Users</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/admin/upload" routerLinkActive="active" class="nav-link text-white-50 d-flex align-items-center gap-3 py-2 px-3 rounded-2 transition-all admin-link">
+          <i class="bi bi-upload fs-6"></i>
+          <span class="fw-medium">Bulk Upload</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/admin/sales-report" routerLinkActive="active" class="nav-link text-white-50 d-flex align-items-center gap-3 py-2 px-3 rounded-2 transition-all admin-link">
+          <i class="bi bi-bar-chart fs-6"></i>
+          <span class="fw-medium">Sales Report</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Main Content -->
+  <div class="flex-grow-1 p-5 overflow-auto">
+    <div class="d-flex justify-content-between align-items-center mb-5">
+      <div>
+        <h3 class="fw-bold mb-1 text-dark">Admin Dashboard</h3>
+        <p class="text-muted m-0">Manage your store, users, and analyze sales.</p>
+      </div>
+      <div class="d-flex align-items-center gap-3">
+        <div class="text-end d-none d-sm-block">
+          <p class="fw-bold m-0 text-dark" *ngIf="adminName">Hello, {{adminName}}</p>
+          <span class="badge bg-primary px-2 py-1 rounded-pill">Super Admin</span>
+        </div>
+        <div class="bg-white border rounded-circle d-flex align-items-center justify-content-center shadow-sm" style="width: 45px; height: 45px;">
+          <i class="bi bi-person-workspace fs-5 text-dark"></i>
+        </div>
+      </div>
+    </div>
+
+    <h5 class="fw-bold mb-4 text-dark">Quick Actions</h5>
+    <!-- Quick Actions Grid -->
+    <div class="row g-4">
+      
+      <!-- Manage Products -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card border-0 shadow-sm h-100 rounded-4 transition-all hover-lift">
+          <div class="card-body p-4 text-center d-flex flex-column align-items-center">
+            <div class="bg-light text-dark mx-auto mb-3 d-flex align-items-center justify-content-center rounded-circle border" style="width: 60px; height: 60px;">
+              <i class="bi bi-tags fs-3"></i>
+            </div>
+            <h6 class="fw-bold text-dark mb-2">Manage Products</h6>
+            <p class="text-muted small mb-4">Add, edit, or delete products and manage inventory levels.</p>
+            <button class="btn btn-outline-dark rounded-pill px-4 mt-auto w-100 fw-medium" routerLink="/admin/products">Go to Products</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Manage Users -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card border-0 shadow-sm h-100 rounded-4 transition-all hover-lift">
+          <div class="card-body p-4 text-center d-flex flex-column align-items-center">
+            <div class="bg-light text-dark mx-auto mb-3 d-flex align-items-center justify-content-center rounded-circle border" style="width: 60px; height: 60px;">
+              <i class="bi bi-people fs-3"></i>
+            </div>
+            <h6 class="fw-bold text-dark mb-2">Manage Users</h6>
+            <p class="text-muted small mb-4">View registered users, change roles, and manage accounts.</p>
+            <button class="btn btn-outline-dark rounded-pill px-4 mt-auto w-100 fw-medium" routerLink="/admin/users">Go to Users</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sales Report -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card border-0 shadow-sm h-100 rounded-4 transition-all hover-lift">
+          <div class="card-body p-4 text-center d-flex flex-column align-items-center">
+            <div class="bg-light text-dark mx-auto mb-3 d-flex align-items-center justify-content-center rounded-circle border" style="width: 60px; height: 60px;">
+              <i class="bi bi-graph-up fs-3"></i>
+            </div>
+            <h6 class="fw-bold text-dark mb-2">Sales Report</h6>
+            <p class="text-muted small mb-4">Analyze transaction data and total revenue for specific dates.</p>
+            <button class="btn btn-primary rounded-pill px-4 mt-auto w-100 text-white fw-medium shadow-sm" routerLink="/admin/sales-report">View Report</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dev Seed (New) -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card border-0 shadow-sm h-100 rounded-4 transition-all hover-lift border-primary border-opacity-10" style="background-color: #f0f9ff;">
+          <div class="card-body p-4 text-center d-flex flex-column align-items-center">
+            <div class="bg-white text-primary mx-auto mb-3 d-flex align-items-center justify-content-center rounded-circle border border-primary border-opacity-25" style="width: 60px; height: 60px;">
+              <i class="bi bi-database-fill-add fs-3"></i>
+            </div>
+            <h6 class="fw-bold text-dark mb-2">Dev: Seed Data</h6>
+            <p class="text-muted small mb-4">Quickly populate the database with sample products for testing purposes.</p>
+            <button class="btn btn-outline-primary rounded-pill px-4 mt-auto w-100 fw-medium" (click)="seedData()">Run Seeder</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

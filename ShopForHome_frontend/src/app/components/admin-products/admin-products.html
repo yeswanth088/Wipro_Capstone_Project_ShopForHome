@@ -1,0 +1,136 @@
+<div class="d-flex min-vh-100 bg-light">
+  
+  <!-- Sidebar -->
+  <div class="admin-sidebar text-white p-4 d-flex flex-column shadow-sm" style="width: 250px; background-color: var(--accent-color); flex-shrink: 0; min-height: calc(100vh - 80px);">
+    <h5 class="fw-bold mb-5" style="color: var(--primary-color);">Admin Panel</h5>
+    
+    <ul class="nav flex-column gap-2 mb-0">
+      <li class="nav-item">
+        <a routerLink="/admin/products" routerLinkActive="active" class="nav-link text-white-50 d-flex align-items-center gap-3 py-2 px-3 rounded-2 transition-all admin-link">
+          <i class="bi bi-box-seam fs-6"></i>
+          <span class="fw-medium">Products</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/admin/users" routerLinkActive="active" class="nav-link text-white-50 d-flex align-items-center gap-3 py-2 px-3 rounded-2 transition-all admin-link">
+          <i class="bi bi-people fs-6"></i>
+          <span class="fw-medium">Users</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/admin/upload" routerLinkActive="active" class="nav-link text-white-50 d-flex align-items-center gap-3 py-2 px-3 rounded-2 transition-all admin-link">
+          <i class="bi bi-upload fs-6"></i>
+          <span class="fw-medium">Bulk Upload</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/admin/sales-report" routerLinkActive="active" class="nav-link text-white-50 d-flex align-items-center gap-3 py-2 px-3 rounded-2 transition-all admin-link">
+          <i class="bi bi-bar-chart fs-6"></i>
+          <span class="fw-medium">Sales Report</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Main Content -->
+  <div class="flex-grow-1 p-5 overflow-auto">
+    <div class="d-flex justify-content-between align-items-center mb-5">
+      <h3 class="fw-bold mb-0 text-dark">Manage Products</h3>
+      <button class="btn btn-primary rounded-pill px-4 py-2 fw-medium shadow-sm d-flex align-items-center text-white" (click)="openAddModal()">
+        <i class="bi bi-plus-lg me-2"></i> Add Product
+      </button>
+    </div>
+
+    <!-- Products Table -->
+    <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+      <div class="card-body p-0">
+        <div class="table-responsive">
+          <table class="table table-hover align-middle mb-0 border-0">
+            <thead class="bg-white">
+              <tr>
+                <th class="ps-4 py-3 border-bottom text-dark fw-bold border-0">Product</th>
+                <th class="py-3 border-bottom text-dark fw-bold border-0">Category</th>
+                <th class="py-3 border-bottom text-dark fw-bold border-0">Price</th>
+                <th class="py-3 border-bottom text-dark fw-bold border-0">Rating</th>
+                <th class="text-end pe-4 py-3 border-bottom text-dark fw-bold border-0">Actions</th>
+              </tr>
+            </thead>
+            <tbody class="border-top-0">
+              <tr *ngIf="products.length === 0">
+                <td colspan="5" class="text-center py-5 text-muted">No products found. Add some!</td>
+              </tr>
+              <tr *ngFor="let p of products">
+                <td class="ps-4 py-3">
+                  <div class="d-flex align-items-center gap-3">
+                    <div class="bg-light rounded-2 d-flex align-items-center justify-content-center p-1" style="width: 50px; height: 50px;">
+                      <img [src]="p.imageUrl || 'assets/noimage.png'" alt="{{p.productName}}" class="object-fit-contain mix-blend-multiply w-100 h-100">
+                    </div>
+                    <div>
+                      <h6 class="mb-0 fw-medium text-dark">{{p.productName}}</h6>
+                    </div>
+                  </div>
+                </td>
+                <td class="py-3 text-secondary">{{p.category?.categoryName || 'Decor'}}</td>
+                <td class="py-3 text-dark fw-medium">₹{{p.price}}</td>
+                <td class="py-3 text-dark">{{p.rating || '4.8'}}</td>
+                <td class="text-end pe-4 py-3">
+                  <button class="btn btn-sm btn-link text-secondary text-decoration-none p-1 me-2" title="Edit" (click)="openEditModal(p)">
+                    <i class="bi bi-pencil"></i>
+                  </button>
+                  <button class="btn btn-sm btn-link text-secondary text-decoration-none p-1 hover-text-danger" title="Delete" (click)="deleteProduct(p.productId || p.id)">
+                    <i class="bi bi-trash"></i>
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Add/Edit Modal (Custom overlay due to no Bootstrap JS modal logic directly in component) -->
+<div class="modal fade show" tabindex="-1" style="display: block; background: rgba(0,0,0,0.5);" *ngIf="showModal">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content border-0 shadow-lg rounded-4">
+      <div class="modal-header border-0 pb-0">
+        <h5 class="modal-title fw-bold">{{ editingProduct ? 'Edit Product' : 'Add New Product' }}</h5>
+        <button type="button" class="btn-close" (click)="closeModal()"></button>
+      </div>
+      <div class="modal-body p-4">
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="prodName" placeholder="Product Name" [(ngModel)]="newProduct.productName">
+          <label for="prodName">Product Name</label>
+        </div>
+        <div class="row g-3 mb-3">
+          <div class="col-md-6 form-floating">
+            <input type="number" class="form-control" id="prodPrice" placeholder="Price" [(ngModel)]="newProduct.price">
+            <label for="prodPrice" class="ms-2">Price (₹)</label>
+          </div>
+          <div class="col-md-6 form-floating">
+            <input type="number" class="form-control" id="prodQty" placeholder="Quantity" [(ngModel)]="newProduct.quantity">
+            <label for="prodQty" class="ms-2">Stock Quantity</label>
+          </div>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="prodImg" placeholder="Image URL" [(ngModel)]="newProduct.imageUrl">
+          <label for="prodImg">Image URL</label>
+        </div>
+        <div class="form-floating mb-3">
+          <select class="form-select" id="prodCat" [(ngModel)]="newProduct.categoryId">
+            <option *ngFor="let cat of categories" [value]="cat.categoryId">{{ cat.categoryName }}</option>
+          </select>
+          <label for="prodCat">Category</label>
+        </div>
+      </div>
+      <div class="modal-footer border-0 pt-0">
+        <button type="button" class="btn btn-light rounded-pill px-4 fw-medium" (click)="closeModal()">Cancel</button>
+        <button type="button" class="btn btn-primary rounded-pill px-4 fw-medium text-white" (click)="saveProduct()" [disabled]="isLoading">
+          <span *ngIf="isLoading" class="spinner-border spinner-border-sm me-2"></span>
+          {{ editingProduct ? 'Update Product' : 'Save Product' }}
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

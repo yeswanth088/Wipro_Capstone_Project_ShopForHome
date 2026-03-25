@@ -1,0 +1,65 @@
+<nav class="navbar navbar-expand-lg bg-white fixed-top shadow-sm px-4 py-3">
+  <div class="container">
+    <a class="navbar-brand fw-bold fs-4 text-dark" routerLink="/">
+      Home Decor
+    </a>
+    
+    <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <!-- Central Links -->
+    <div class="collapse navbar-collapse justify-content-center" id="navMenu">
+      <ul class="navbar-nav gap-2 gap-lg-4">
+        <li class="nav-item">
+          <a class="nav-link fw-medium text-secondary" routerLink="/" routerLinkActive="text-dark fw-bold" [routerLinkActiveOptions]="{exact: true}">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fw-medium text-secondary" routerLink="/products" routerLinkActive="text-dark fw-bold">Products</a>
+        </li>
+        <li class="nav-item" *ngIf="api.isAdmin()">
+          <a class="nav-link fw-medium text-secondary" routerLink="/admin" routerLinkActive="text-dark fw-bold">Admin</a>
+        </li>
+      </ul>
+      
+      <!-- Mobile Right Icons (shown only in collapse) -->
+      <div class="d-lg-none mt-3 d-flex gap-3 border-top pt-3">
+        <a *ngIf="!api.isLoggedIn()" routerLink="/login" class="text-dark text-decoration-none fs-4"><i class="bi bi-box-arrow-in-right"></i> Login</a>
+        <a *ngIf="!api.isLoggedIn()" routerLink="/register" class="text-dark text-decoration-none fs-4"><i class="bi bi-person-plus"></i> Sign Up</a>
+        <a *ngIf="api.isLoggedIn()" (click)="onLogout()" class="text-danger text-decoration-none fs-4"><i class="bi bi-box-arrow-right"></i> Logout</a>
+        <a routerLink="/wishlist" class="text-dark text-decoration-none fs-4 ms-auto"><i class="bi bi-heart"></i> Wishlist</a>
+        <a routerLink="/cart" class="text-dark text-decoration-none fs-4"><i class="bi bi-cart2"></i> Cart</a>
+      </div>
+    </div>
+
+    <!-- Desktop Right Icons -->
+    <div class="d-none d-lg-flex align-items-center gap-4">
+      <!-- Login/Logout -->
+      <a *ngIf="!api.isLoggedIn()" routerLink="/login" class="text-secondary hover-text-dark text-decoration-none fs-4 transition-all" title="Login">
+        <i class="bi bi-box-arrow-in-right"></i>
+      </a>
+      <a *ngIf="api.isLoggedIn()" (click)="onLogout()" class="text-secondary hover-text-dark text-decoration-none fs-4 transition-all" style="cursor: pointer;" title="Logout">
+        <i class="bi bi-box-arrow-right"></i>
+      </a>
+
+      <!-- User Account -->
+      <a [routerLink]="api.isLoggedIn() ? '/admin' : '/login'" class="text-secondary hover-text-dark text-decoration-none fs-4 transition-all" title="Account">
+        <i class="bi bi-person"></i>
+      </a>
+
+      <!-- Wishlist -->
+      <a routerLink="/wishlist" class="text-secondary hover-text-dark text-decoration-none fs-4 transition-all" title="Wishlist">
+        <i class="bi bi-heart"></i>
+      </a>
+
+      <!-- Cart -->
+      <a routerLink="/cart" class="text-secondary hover-text-dark text-decoration-none fs-4 transition-all" title="Cart">
+        <i class="bi bi-cart3"></i>
+      </a>
+    </div>
+
+  </div>
+</nav>
+
+<!-- Spacer to block content behind the fixed navbar -->
+<div style="height: 80px;"></div>

@@ -1,0 +1,267 @@
+﻿Build started 18-03-2026 13:21:45.
+     1>Project "d:\ShopForHome_github\ShopForHome_backend\ShopForHome.Tests\ShopForHome.Tests.csproj" on node 1 (Restore target(s)).
+     1>_GetAllRestoreProjectPathItems:
+         Determining projects to restore...
+     1>Project "d:\ShopForHome_github\ShopForHome_backend\ShopForHome.Tests\ShopForHome.Tests.csproj" (1) is building "d:\ShopForHome_github\ShopForHome_backend\ShopForHome\ShopForHome.csproj" (2:4) on node 1 (_GenerateProjectRestoreGraph target(s)).
+     2>AddPrunePackageReferences:
+         Loading prune package data from PrunePackageData folder
+         Failed to load prune package data from PrunePackageData folder, loading from targeting packs instead
+         Looking for targeting packs in C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref
+         Pack directories found: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.4
+         Found package overrides file C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.4\data\PackageOverrides.txt
+         Loading prune package data from PrunePackageData folder
+         Failed to load prune package data from PrunePackageData folder, loading from targeting packs instead
+         Looking for targeting packs in C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref
+         Pack directories found: C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\10.0.4
+         Found package overrides file C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\10.0.4\data\PackageOverrides.txt
+     2>Done Building Project "d:\ShopForHome_github\ShopForHome_backend\ShopForHome\ShopForHome.csproj" (_GenerateProjectRestoreGraph target(s)).
+     1>Project "d:\ShopForHome_github\ShopForHome_backend\ShopForHome.Tests\ShopForHome.Tests.csproj" (1) is building "d:\ShopForHome_github\ShopForHome_backend\ShopForHome.Tests\ShopForHome.Tests.csproj" (1:6) on node 1 (_GenerateProjectRestoreGraph target(s)).
+     1>AddPrunePackageReferences:
+         Loading prune package data from PrunePackageData folder
+         Failed to load prune package data from PrunePackageData folder, loading from targeting packs instead
+         Looking for targeting packs in C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref
+         Pack directories found: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.4
+         Found package overrides file C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.4\data\PackageOverrides.txt
+     1>Done Building Project "d:\ShopForHome_github\ShopForHome_backend\ShopForHome.Tests\ShopForHome.Tests.csproj" (_GenerateProjectRestoreGraph target(s)).
+     1>Restore:
+         X.509 certificate chain validation will use the default trust store selected by .NET for code signing.
+         X.509 certificate chain validation will use the default trust store selected by .NET for timestamping.
+         Assets file has not changed. Skipping assets file writing. Path: d:\ShopForHome_github\ShopForHome_backend\ShopForHome\obj\project.assets.json
+         Assets file has not changed. Skipping assets file writing. Path: d:\ShopForHome_github\ShopForHome_backend\ShopForHome.Tests\obj\project.assets.json
+         Restored d:\ShopForHome_github\ShopForHome_backend\ShopForHome.Tests\ShopForHome.Tests.csproj (in 111 ms).
+         Restored d:\ShopForHome_github\ShopForHome_backend\ShopForHome\ShopForHome.csproj (in 111 ms).
+         
+         NuGet Config files used:
+             C:\Users\yeswa\AppData\Roaming\NuGet\NuGet.Config
+             C:\Program Files (x86)\NuGet\Config\Microsoft.VisualStudio.FallbackLocation.config
+             C:\Program Files (x86)\NuGet\Config\Microsoft.VisualStudio.Offline.config
+         
+         Feeds used:
+             https://api.nuget.org/v3/index.json
+             C:\Program Files (x86)\Microsoft SDKs\NuGetPackages\
+         All projects are up-to-date for restore.
+     1>Done Building Project "d:\ShopForHome_github\ShopForHome_backend\ShopForHome.Tests\ShopForHome.Tests.csproj" (Restore target(s)).
+   1:7>Project "d:\ShopForHome_github\ShopForHome_backend\ShopForHome.Tests\ShopForHome.Tests.csproj" on node 1 (VSTest target(s)).
+     1>BuildProject:
+         Build started, please wait...
+   1:7>Project "d:\ShopForHome_github\ShopForHome_backend\ShopForHome.Tests\ShopForHome.Tests.csproj" (1:7) is building "d:\ShopForHome_github\ShopForHome_backend\ShopForHome.Tests\ShopForHome.Tests.csproj" (1:8) on node 1 (default targets).
+   1:8>Project "d:\ShopForHome_github\ShopForHome_backend\ShopForHome.Tests\ShopForHome.Tests.csproj" (1:8) is building "d:\ShopForHome_github\ShopForHome_backend\ShopForHome\ShopForHome.csproj" (2:6) on node 1 (default targets).
+     2>GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       CoreGenerateAssemblyInfo:
+       Skipping target "CoreGenerateAssemblyInfo" because all output files are up-to-date with respect to the input files.
+       _DiscoverMvcApplicationParts:
+       Skipping target "_DiscoverMvcApplicationParts" because all output files are up-to-date with respect to the input files.
+       _CoreGenerateRazorAssemblyInfo:
+       Skipping target "_CoreGenerateRazorAssemblyInfo" because all output files are up-to-date with respect to the input files.
+       _GenerateSourceLinkFile:
+         Source Link file 'obj\Debug\net10.0\ShopForHome.sourcelink.json' is up-to-date.
+       CoreCompile:
+       Skipping target "CoreCompile" because all output files are up-to-date with respect to the input files.
+       _CreateAppHost:
+       Skipping target "_CreateAppHost" because all output files are up-to-date with respect to the input files.
+       _ProcessScopedCssFiles:
+       Skipping target "_ProcessScopedCssFiles" because it has no outputs.
+       _ProcessScopedCssFiles:
+       Skipping target "_ProcessScopedCssFiles" because it has no outputs.
+       _BuildCopyStaticWebAssetsPreserveNewest:
+       Skipping target "_BuildCopyStaticWebAssetsPreserveNewest" because it has no outputs.
+       _CopyOutOfDateSourceItemsToOutputDirectory:
+       Skipping target "_CopyOutOfDateSourceItemsToOutputDirectory" because all output files are up-to-date with respect to the input files.
+       GenerateBuildDependencyFile:
+       Skipping target "GenerateBuildDependencyFile" because all output files are up-to-date with respect to the input files.
+       GenerateBuildRuntimeConfigurationFiles:
+       Skipping target "GenerateBuildRuntimeConfigurationFiles" because all output files are up-to-date with respect to the input files.
+       CopyFilesToOutputDirectory:
+         ShopForHome -> d:\ShopForHome_github\ShopForHome_backend\ShopForHome\bin\Debug\net10.0\ShopForHome.dll
+     2>Done Building Project "d:\ShopForHome_github\ShopForHome_backend\ShopForHome\ShopForHome.csproj" (default targets).
+     1>GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       CoreGenerateAssemblyInfo:
+       Skipping target "CoreGenerateAssemblyInfo" because all output files are up-to-date with respect to the input files.
+       _GenerateSourceLinkFile:
+         Source Link file 'obj\Debug\net10.0\ShopForHome.Tests.sourcelink.json' is up-to-date.
+       CoreCompile:
+       Skipping target "CoreCompile" because all output files are up-to-date with respect to the input files.
+       _CopyOutOfDateSourceItemsToOutputDirectory:
+       Skipping target "_CopyOutOfDateSourceItemsToOutputDirectory" because all output files are up-to-date with respect to the input files.
+       GenerateBuildDependencyFile:
+       Skipping target "GenerateBuildDependencyFile" because all output files are up-to-date with respect to the input files.
+       GenerateBuildRuntimeConfigurationFiles:
+       Skipping target "GenerateBuildRuntimeConfigurationFiles" because all output files are up-to-date with respect to the input files.
+       CopyFilesToOutputDirectory:
+         ShopForHome.Tests -> d:\ShopForHome_github\ShopForHome_backend\ShopForHome.Tests\bin\Debug\net10.0\ShopForHome.Tests.dll
+     1>Done Building Project "d:\ShopForHome_github\ShopForHome_backend\ShopForHome.Tests\ShopForHome.Tests.csproj" (default targets).
+     1>BuildProject:
+         Build completed.
+         
+Test run for d:\ShopForHome_github\ShopForHome_backend\ShopForHome.Tests\bin\Debug\net10.0\ShopForHome.Tests.dll (.NETCoreApp,Version=v10.0)
+A total of 1 test files matched the specified pattern.
+[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v3.1.4+50e68bbb8b (64-bit .NET 10.0.4)
+[xUnit.net 00:00:00.10]   Discovering: ShopForHome.Tests
+[xUnit.net 00:00:00.15]   Discovered:  ShopForHome.Tests
+[xUnit.net 00:00:00.17]   Starting:    ShopForHome.Tests
+dotnet : [xUnit.net 
+00:00:00.83]     ShopFo
+rHome.Tests.CategoryCon
+trollerTests.Create_Add
+sCategory [FAIL]
+At line:1 char:1
++ dotnet test d:\ShopFo
+rHome_github\ShopForHom
+e_backend\ShopForHome.T
+es ...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: ([xUnit.net 00   
+ :0...Category [FAI    
+L]:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+[xUnit.net 00:00:00.83]       Microsoft.EntityFrameworkCore.DbUpdateException : Required properties '{'Name'}' are missing for the instance of entity type 'User'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the entity key value.
+[xUnit.net 00:00:00.83]       Stack Trace:
+[xUnit.net 00:00:00.83]            at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.ThrowNullabilityErrorException(IUpdateEntry entry, IList`1 nullabilityErrors)
+[xUnit.net 00:00:00.83]            at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.Create(IUpdateEntry entry, IDiagnosticsLogger`1 updateLogger)
+[xUnit.net 00:00:00.83]            at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryStore.ExecuteTransaction(IList`1 entries, IDiagnosticsLogger`1 updateLogger)
+[xUnit.net 00:00:00.83]            at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+[xUnit.net 00:00:00.83]            at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+[xUnit.net 00:00:00.83]            at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+[xUnit.net 00:00:00.83]            at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+[xUnit.net 00:00:00.83]            at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+[xUnit.net 00:00:00.83]         d:\ShopForHome_github\ShopForHome_backend\ShopForHome.Tests\CategoryControllerTests.cs(42,0): at ShopForHome.Tests.CategoryControllerTests.Create_AddsCategory()
+[xUnit.net 00:00:00.83]         --- End of stack trace from previous location ---
+[xUnit.net 
+00:00:00.84]     ShopFo
+rHome.Tests.SalesReport
+ControllerTests.GetSale
+sReport_ReturnsOk 
+[FAIL]
+[xUnit.net 00:00:00.84]       Microsoft.EntityFrameworkCore.DbUpdateException : Required properties '{'Name'}' are missing for the instance of entity type 'User'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the entity key value.
+[xUnit.net 00:00:00.84]       Stack Trace:
+[xUnit.net 00:00:00.84]            at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.ThrowNullabilityErrorException(IUpdateEntry entry, IList`1 nullabilityErrors)
+[xUnit.net 00:00:00.84]            at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.Create(IUpdateEntry entry, IDiagnosticsLogger`1 updateLogger)
+[xUnit.net 00:00:00.84]            at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryStore.ExecuteTransaction(IList`1 entries, IDiagnosticsLogger`1 updateLogger)
+[xUnit.net 00:00:00.84]            at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+[xUnit.net 00:00:00.84]            at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+[xUnit.net 00:00:00.84]            at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+[xUnit.net 00:00:00.84]            at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+[xUnit.net 00:00:00.84]            at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+[xUnit.net 00:00:00.84]         d:\ShopForHome_github\ShopForHome_backend\ShopForHome.Tests\SalesReportControllerTests.cs(28,0): at ShopForHome.Tests.SalesReportControllerTests.GetSalesReport_ReturnsOk()
+[xUnit.net 00:00:00.84]         --- End of stack trace from previous location ---
+[xUnit.net 
+00:00:00.84]     ShopFo
+rHome.Tests.ProductsCon
+trollerTests.AddProduct
+_AddsSuccessfully 
+[FAIL]
+[xUnit.net 00:00:00.84]       Microsoft.EntityFrameworkCore.DbUpdateException : Required properties '{'Name'}' are missing for the instance of entity type 'User'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the entity key value.
+[xUnit.net 00:00:00.84]       Stack Trace:
+[xUnit.net 00:00:00.84]            at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.ThrowNullabilityErrorException(IUpdateEntry entry, IList`1 nullabilityErrors)
+[xUnit.net 00:00:00.84]            at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.Create(IUpdateEntry entry, IDiagnosticsLogger`1 updateLogger)
+[xUnit.net 00:00:00.84]            at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryStore.ExecuteTransaction(IList`1 entries, IDiagnosticsLogger`1 updateLogger)
+[xUnit.net 00:00:00.84]            at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+[xUnit.net 00:00:00.84]            at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+[xUnit.net 00:00:00.84]            at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+[xUnit.net 00:00:00.84]            at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+[xUnit.net 00:00:00.84]            at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+[xUnit.net 00:00:00.84]         d:\ShopForHome_github\ShopForHome_backend\ShopForHome.Tests\ProductsControllerTests.cs(42,0): at ShopForHome.Tests.ProductsControllerTests.AddProduct_AddsSuccessfully()
+[xUnit.net 00:00:00.84]         --- End of stack trace from previous location ---
+[xUnit.net 
+00:00:00.97]     ShopFo
+rHome.Tests.ProductsCon
+trollerTests.GetProduct
+s_ReturnsAll [FAIL]
+[xUnit.net 00:00:00.97]       Microsoft.EntityFrameworkCore.DbUpdateException : Required properties '{'ImageUrl'}' are missing for the instance of entity type 'Product'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the entity key value.
+[xUnit.net 00:00:00.97]       Stack Trace:
+[xUnit.net 00:00:00.97]            at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.ThrowNullabilityErrorException(IUpdateEntry entry, IList`1 nullabilityErrors)
+[xUnit.net 00:00:00.97]            at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.Create(IUpdateEntry entry, IDiagnosticsLogger`1 updateLogger)
+[xUnit.net 00:00:00.97]            at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryStore.ExecuteTransaction(IList`1 entries, IDiagnosticsLogger`1 updateLogger)
+[xUnit.net 00:00:00.97]            at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+[xUnit.net 00:00:00.97]            at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+[xUnit.net 00:00:00.97]            at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+[xUnit.net 00:00:00.97]            at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+[xUnit.net 00:00:00.97]            at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+[xUnit.net 00:00:00.97]         d:\ShopForHome_github\ShopForHome_backend\ShopForHome.Tests\ProductsControllerTests.cs(28,0): at ShopForHome.Tests.ProductsControllerTests.GetProducts_ReturnsAll()
+[xUnit.net 00:00:00.97]         --- End of stack trace from previous location ---
+[xUnit.net 00:00:01.06]   Finished:    ShopForHome.Tests
+  Failed ShopForHome.Tests.CategoryControllerTests.Create_AddsCategory [602 ms]
+  Error Message:
+   Microsoft.EntityFrameworkCore.DbUpdateException : Required properties '{'Name'}' are missing for the instance of entity type 'User'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the entity key value.
+  Stack Trace:
+     at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.ThrowNullabilityErrorException(IUpdateEntry entry, IList`1 nullabilityErrors)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.Create(IUpdateEntry entry, IDiagnosticsLogger`1 updateLogger)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryStore.ExecuteTransaction(IList`1 entries, IDiagnosticsLogger`1 updateLogger)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at ShopForHome.Tests.CategoryControllerTests.Create_AddsCategory() in d:\ShopForHome_github\ShopForHome_backend\ShopForHome.Tests\CategoryControllerTests.cs:line 42
+--- End of stack trace from previous location ---
+  Failed ShopForHome.Tests.SalesReportControllerTests.GetSalesReport_ReturnsOk [602 ms]
+  Error Message:
+   Microsoft.EntityFrameworkCore.DbUpdateException : Required properties '{'Name'}' are missing for the instance of entity type 'User'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the entity key value.
+  Stack Trace:
+     at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.ThrowNullabilityErrorException(IUpdateEntry entry, IList`1 nullabilityErrors)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.Create(IUpdateEntry entry, IDiagnosticsLogger`1 updateLogger)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryStore.ExecuteTransaction(IList`1 entries, IDiagnosticsLogger`1 updateLogger)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at ShopForHome.Tests.SalesReportControllerTests.GetSalesReport_ReturnsOk() in d:\ShopForHome_github\ShopForHome_backend\ShopForHome.Tests\SalesReportControllerTests.cs:line 28
+--- End of stack trace from previous location ---
+  Failed ShopForHome.Tests.ProductsControllerTests.AddProduct_AddsSuccessfully [602 ms]
+  Error Message:
+   Microsoft.EntityFrameworkCore.DbUpdateException : Required properties '{'Name'}' are missing for the instance of entity type 'User'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the entity key value.
+  Stack Trace:
+     at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.ThrowNullabilityErrorException(IUpdateEntry entry, IList`1 nullabilityErrors)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.Create(IUpdateEntry entry, IDiagnosticsLogger`1 updateLogger)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryStore.ExecuteTransaction(IList`1 entries, IDiagnosticsLogger`1 updateLogger)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at ShopForHome.Tests.ProductsControllerTests.AddProduct_AddsSuccessfully() in d:\ShopForHome_github\ShopForHome_backend\ShopForHome.Tests\ProductsControllerTests.cs:line 42
+--- End of stack trace from previous location ---
+  Failed ShopForHome.Tests.ProductsControllerTests.GetProducts_ReturnsAll [147 ms]
+  Error Message:
+   Microsoft.EntityFrameworkCore.DbUpdateException : Required properties '{'ImageUrl'}' are missing for the instance of entity type 'Product'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the entity key value.
+  Stack Trace:
+     at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.ThrowNullabilityErrorException(IUpdateEntry entry, IList`1 nullabilityErrors)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.Create(IUpdateEntry entry, IDiagnosticsLogger`1 updateLogger)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryStore.ExecuteTransaction(IList`1 entries, IDiagnosticsLogger`1 updateLogger)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at ShopForHome.Tests.ProductsControllerTests.GetProducts_ReturnsAll() in d:\ShopForHome_github\ShopForHome_backend\ShopForHome.Tests\ProductsControllerTests.cs:line 28
+--- End of stack trace from previous location ---
+  Passed ShopForHome.Tests.CategoryControllerTests.Show_ReturnsAllCategories [186 ms]
+  Passed ShopForHome.Tests.UsersControllerTests.GetUsers_ReturnsAll [802 ms]
+  Passed ShopForHome.Tests.UsersControllerTests.CreateUser_AddsToDb [47 ms]
+
+Test Run Failed.
+Total tests: 7
+     Passed: 3
+     Failed: 4
+ Total time: 1.7049 Seconds
+       _VSTestConsole:
+         MSB4181: The "VSTestTask" task returned false but did not log an error.
+     1>Done Building Project "d:\ShopForHome_github\ShopForHome_backend\ShopForHome.Tests\ShopForHome.Tests.csproj" (VSTest target(s)) -- FAILED.
+
+Build FAILED.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:04.41

@@ -1,0 +1,54 @@
+<app-navbar></app-navbar>
+
+<main class="min-vh-100 pb-0">
+  <router-outlet></router-outlet>
+</main>
+
+<!-- Toast Container -->
+<div class="toast-container position-fixed top-0 end-0 p-3">
+  <div id="cartToast" class="toast align-items-center text-white bg-success border-0" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="d-flex">
+      <div class="toast-body">
+        Item added to cart!
+      </div>
+      <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+  </div>
+</div>
+
+<!-- Global Footer -->
+<footer class="text-white py-5 mt-auto" style="background-color: var(--accent-color) !important;">
+  <div class="container">
+    <div class="row g-5">
+      <div class="col-lg-4 col-md-6">
+        <h5 class="fw-bold mb-3">Home Decor</h5>
+        <p class="text-white-50 mb-0" style="max-width: 300px;">Premium home furnishings curated for modern living.</p>
+      </div>
+      
+      <div class="col-lg-4 col-md-6">
+        <h6 class="fw-bold mb-3">Quick Links</h6>
+        <ul class="list-unstyled d-flex flex-column gap-2 mb-0">
+          <li><a href="#" class="text-white-50 text-decoration-none hover-text-white">About Us</a></li>
+          <li><a href="#" class="text-white-50 text-decoration-none hover-text-white">Contact</a></li>
+          <li><a href="#" class="text-white-50 text-decoration-none hover-text-white">Shipping</a></li>
+          <li><a href="#" class="text-white-50 text-decoration-none hover-text-white">Returns</a></li>
+        </ul>
+      </div>
+      
+      <div class="col-lg-4 col-md-12">
+        <h6 class="fw-bold mb-3">Follow Us</h6>
+        <div class="d-flex flex-wrap gap-2 text-white-50 small">
+          <a href="#" class="text-white-50 text-decoration-none hover-text-white">Instagram</a>
+          <span class="mx-1">&middot;</span>
+          <a href="#" class="text-white-50 text-decoration-none hover-text-white">Pinterest</a>
+          <span class="mx-1">&middot;</span>
+          <a href="#" class="text-white-50 text-decoration-none hover-text-white">Facebook</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="text-center text-white-50 small mt-5 pt-3 border-top border-secondary">
+      &copy; 2026 ShopForHome. All rights reserved.
+    </div>
+  </div>
+</footer>

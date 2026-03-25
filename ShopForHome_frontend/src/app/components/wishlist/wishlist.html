@@ -1,0 +1,54 @@
+<!-- Page Header -->
+<div class="bg-danger p-5 mb-5 mt-0 rounded-bottom-4 shadow-sm text-center position-relative overflow-hidden" style="background: linear-gradient(135deg, #fd5c63, #e53935) !important;">
+  <div class="container position-relative z-index-1">
+    <h1 class="font-weight-bold display-5 mb-2 fw-bold text-white" style="font-family: 'Poppins', sans-serif;">My Wishlist <i class="bi bi-heart-fill ms-2 animate-bounce"></i></h1>
+    <p class="lead mb-0 text-white-50">Products you love, saved for later</p>
+  </div>
+</div>
+
+<div class="container mb-5 min-vh-50">
+
+  <!-- Empty State -->
+  <div *ngIf="wishlistItems.length === 0" class="text-center py-5">
+    <div class="bg-light rounded-circle d-flex align-items-center justify-content-center mx-auto mb-4 border" style="width: 120px; height: 120px;">
+      <i class="bi bi-heartbreak text-secondary" style="font-size: 3rem;"></i>
+    </div>
+    <h3 class="fw-bold mb-3">Your wishlist is lonely</h3>
+    <p class="text-muted mb-4 lead">It seems you haven't found anything you love yet.</p>
+    <button class="btn btn-danger btn-lg rounded-pill px-5 shadow-sm hover-lift fw-bold letter-spacing" routerLink="/">Discover Products</button>
+  </div>
+
+  <!-- Wishlist Grid -->
+  <div class="row g-4" *ngIf="wishlistItems.length > 0">
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6" *ngFor="let item of wishlistItems; let i = index">
+      
+      <div class="card product-card h-100 border-0 shadow-sm rounded-4 overflow-hidden">
+        
+        <!-- Image & Badges -->
+        <div class="product-img-wrapper position-relative overflow-hidden bg-light" style="height: 250px;">
+          <img [src]="item.imageUrl || 'assets/noimage.png'" class="w-100 h-100 object-fit-cover transition-transform" alt="{{item.productName}}">
+          
+          <button class="btn btn-light text-danger position-absolute top-0 end-0 m-3 rounded-circle shadow-sm hover-lift" (click)="removeItem(i)" title="Remove from wishlist" style="width: 40px; height: 40px; z-index: 2;">
+            <i class="bi bi-trash-fill"></i>
+          </button>
+        </div>
+        
+        <!-- Details -->
+        <div class="card-body p-4 d-flex flex-column">
+          <h5 class="fw-bold mb-1 text-truncate" title="{{item.productName}}">{{item.productName}}</h5>
+          <p class="text-muted small mb-3 text-truncate">Premium Selection</p>
+          
+          <div class="mt-auto d-flex justify-content-between align-items-center">
+            <h5 class="text-primary fw-bold mb-0">₹{{item.price}}</h5>
+            <button class="btn btn-outline-primary rounded-pill px-3 py-1 fw-medium shadow-sm hover-lift d-flex align-items-center" (click)="moveToCart(item, i)">
+              <i class="bi bi-cart-plus me-2"></i> Move to Cart
+            </button>
+          </div>
+        </div>
+        
+      </div>
+
+    </div>
+  </div>
+
+</div>
